@@ -40,3 +40,10 @@ nav {
     position: relative;
     padding-bottom: 0.25rem;
 }
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
