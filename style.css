@@ -61,4 +61,6 @@ nav {
     background-color: #ffc107;
 }
 
-
+.icons i:hover {
+    color: #ffc107;
+}
