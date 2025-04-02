@@ -51,3 +51,8 @@ nav {
     background-color: #ffc107;
     transition: width 0.3s ease;
 }
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
