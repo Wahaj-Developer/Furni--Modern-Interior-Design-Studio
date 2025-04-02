@@ -78,3 +78,7 @@ nav.scrolled {
     align-items: center;
     gap: 2rem;
 }
+
+.hero-content {
+    flex: 1;
+}
