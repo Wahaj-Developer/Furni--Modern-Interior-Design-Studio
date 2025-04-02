@@ -64,3 +64,9 @@ nav {
 .icons i:hover {
     color: #ffc107;
 }
+
+nav.scrolled {
+    background: #2d5a4d;
+    padding: 1rem 5%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
