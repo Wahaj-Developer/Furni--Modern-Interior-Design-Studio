@@ -138,3 +138,12 @@ nav.scrolled {
     color: black;
 
 }
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
