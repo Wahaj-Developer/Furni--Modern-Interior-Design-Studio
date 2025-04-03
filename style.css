@@ -104,3 +104,7 @@ nav.scrolled {
     height: auto;
 }
 
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
