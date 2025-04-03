@@ -132,3 +132,9 @@ nav.scrolled {
     border: 1px solid white;
     color: white;
 }
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color: black;
+
+}
