@@ -127,3 +127,8 @@ nav.scrolled {
     color: black;
 
 }
+
+.btn-secondary {
+    border: 1px solid white;
+    color: white;
+}
