@@ -122,3 +122,8 @@ nav.scrolled {
     color: #000;
 }
 
+.btn-primary:hover {
+    background-color: #fff;
+    color: black;
+
+}
