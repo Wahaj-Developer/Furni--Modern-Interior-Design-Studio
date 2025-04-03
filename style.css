@@ -116,3 +116,9 @@ nav.scrolled {
     font-weight: 500;
     transition: all 0.3s ease;
 }
+
+.btn-primary {
+    background: #ffc107;
+    color: #000;
+}
+
