@@ -170,3 +170,9 @@ nav.scrolled {
   .hamburger {
         display: block;
     }
+
+   .hero {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 6rem;
+    }
