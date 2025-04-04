@@ -162,3 +162,8 @@ nav.scrolled {
         padding: 1rem;
         text-align: center;
     }
+
+.nav-links.active {
+        display: flex;
+    }
+
