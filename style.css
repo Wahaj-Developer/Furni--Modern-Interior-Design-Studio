@@ -184,3 +184,8 @@ nav.scrolled {
     .buttons {
         justify-content: center;
     }
+
+        .hero-content p {
+        margin: 0 auto 2rem;
+    }
+}
