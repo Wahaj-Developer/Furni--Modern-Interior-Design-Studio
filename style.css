@@ -163,7 +163,10 @@ nav.scrolled {
         text-align: center;
     }
 
-.nav-links.active {
+   .nav-links.active {
         display: flex;
     }
-
+    
+  .hamburger {
+        display: block;
+    }
