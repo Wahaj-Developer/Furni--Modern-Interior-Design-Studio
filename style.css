@@ -207,4 +207,6 @@ nav.scrolled {
     align-items: flex-start;
 }
 
-
+.section-content {
+    flex: 0 0 300px;
+}
