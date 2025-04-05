@@ -238,3 +238,10 @@ nav.scrolled {
     color: #000;
     transform: translateY(-2px);
 }
+
+.products-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
