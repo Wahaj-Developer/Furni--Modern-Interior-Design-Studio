@@ -224,3 +224,13 @@ nav.scrolled {
     margin-bottom: 2rem;
 }
 
+.explore-btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
