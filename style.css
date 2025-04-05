@@ -218,3 +218,9 @@ nav.scrolled {
     line-height: 1.2;
 }
 
+.section-content p {
+    color: #c4c4c4;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
