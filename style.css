@@ -250,6 +250,13 @@ nav.scrolled {
     box-shadow: 0 10px 30px rgba(13, 170, 84, 10);
 }
 
+
+.product-card:first-child {
+
+    border-radius: 10px;
+}
+
+
 .product-card {
     position: relative;
     padding: 1rem;
