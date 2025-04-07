@@ -281,5 +281,10 @@ nav.scrolled {
     margin-bottom: 0.5rem;
 }
 
+.product-price {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2rem;
+}
 
 
