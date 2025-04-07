@@ -245,3 +245,9 @@ nav.scrolled {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
+
+.product-card {
+    position: relative;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
