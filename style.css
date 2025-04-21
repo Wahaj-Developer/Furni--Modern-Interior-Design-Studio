@@ -357,3 +357,9 @@ nav.scrolled {
     color: #fff;
     margin-bottom: 40px;
 }
+
+
+.testimonial-container {
+    position: relative;
+    overflow: hidden;
+}
