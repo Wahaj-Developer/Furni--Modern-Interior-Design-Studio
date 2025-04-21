@@ -348,3 +348,12 @@ nav.scrolled {
     position: relative;
     background: #000;
 }
+
+
+
+
+.testimonial-title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 40px;
+}
