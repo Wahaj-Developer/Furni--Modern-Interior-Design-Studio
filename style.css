@@ -32,7 +32,16 @@ html{
   }
   
 
-
+.alert-box {
+    background-color: #2d5a4d;
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 100vh;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-out;
+  }
 
 
 
