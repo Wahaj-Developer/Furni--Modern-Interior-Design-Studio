@@ -56,6 +56,11 @@ html{
     transition: background-color 0.3s;
   }
 
+  
+  #alertOkBtn:hover {
+    background-color: #e0a800;
+  }
+
 
 
 nav {
