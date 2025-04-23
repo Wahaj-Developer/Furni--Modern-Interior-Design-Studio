@@ -44,6 +44,18 @@ html{
   }
 
 
+  #alertOkBtn {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 8px 30px;
+    margin-top: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
 
 
 nav {
