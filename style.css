@@ -31,8 +31,7 @@ html{
     align-items: center;
   }
   
-
-.alert-box {
+  .alert-box {
     background-color: #2d5a4d;
     color: white;
     padding: 25px;
@@ -42,8 +41,7 @@ html{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     animation: fadeIn 0.3s ease-out;
   }
-
-
+  
   #alertOkBtn {
     background-color: #ffc107;
     color: #333;
@@ -55,23 +53,28 @@ html{
     font-weight: bold;
     transition: background-color 0.3s;
   }
-
   
   #alertOkBtn:hover {
     background-color: #e0a800;
   }
-
-
+  
   @keyframes fadeIn {
     from {
       opacity: 0;
       transform: translateY(-20px);
     }
-       to {
+    to {
       opacity: 1;
       transform: translateY(0);
     }
   }
+
+
+
+
+
+
+
 
 nav {
     padding: 1.5rem 5%;
@@ -83,7 +86,6 @@ nav {
     top: 0;
     z-index: 100;
 }
-
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -116,13 +118,15 @@ nav {
     width: 100%;
 }
 
-.nav-links a.active::after {
-    width: 100%;
-    background-color: #ffc107;
+.icons i  {
+
+    font-size: 1em;
+    margin: 10px;
 }
 
 .icons i:hover {
     color: #ffc107;
+    cursor: pointer;
 }
 
 nav.scrolled {
@@ -131,12 +135,14 @@ nav.scrolled {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+
 .hero {
     min-height: 100vh;
     padding: 8rem 5% 2rem;
     display: flex;
     align-items: center;
     gap: 2rem;
+    background-color: #2d5a4d;
 }
 
 .hero-content {
@@ -208,7 +214,6 @@ nav.scrolled {
     font-size: 1.5rem;
 }
 
-/* Responsive  for m1x-width 768px */
 
 @media (max-width: 768px) {
     .nav-links {
@@ -223,29 +228,30 @@ nav.scrolled {
         text-align: center;
     }
 
-   .nav-links.active {
+    .nav-links.active {
         display: flex;
     }
-    
-  .hamburger {
+
+    .hamburger {
         display: block;
     }
 
-   .hero {
+
+    .hero {
         flex-direction: column;
         text-align: center;
         padding-top: 6rem;
     }
-    
+
     .hero-content h1 {
         font-size: 2.5rem;
     }
-    
+
     .buttons {
         justify-content: center;
     }
 
-        .hero-content p {
+    .hero-content p {
         margin: 0 auto 2rem;
     }
 }
@@ -278,23 +284,26 @@ nav.scrolled {
     line-height: 1.2;
 }
 
+
 .section-content p {
     color: #c4c4c4;
     line-height: 1.6;
     margin-bottom: 2rem;
 }
 
-.explore-btn {
+.Learn {
     display: inline-block;
     padding: 0.8rem 2rem;
     background: #333;
+    font-weight: bold;
     color: white;
     text-decoration: none;
     border-radius: 30px;
     transition: all 0.3s ease;
 }
 
-   background: #fff;
+.Learn:hover {
+    background: #fff;
     color: #000;
     transform: translateY(-2px);
 }
@@ -306,16 +315,6 @@ nav.scrolled {
     gap: 2rem;
 }
 
-.product-card:hover {
-    box-shadow: 0 10px 30px rgba(13, 170, 84, 10);
-}
-
-
-.product-card:first-child {
-
-    border-radius: 10px;
-}
-
 
 .product-card {
     position: relative;
@@ -323,9 +322,19 @@ nav.scrolled {
     transition: all 0.3s ease;
 }
 
+.product-card:hover {
+    box-shadow: 0 10px 30px rgba(13, 170, 84, 10);
+}
+
+.product-card:first-child {
+
+    border-radius: 10px;
+}
+
 .product-image {
     width: 100%;
     height: 300px;
+
     object-fit: cover;
     margin-bottom: 1rem;
 }
@@ -334,6 +343,8 @@ nav.scrolled {
     text-align: center;
     padding: 0.5rem;
 }
+
+
 
 .product-name {
     font-size: 1.1rem;
@@ -364,8 +375,6 @@ nav.scrolled {
     transition: all 0.3s ease;
 }
 
-
-
 .product-card:hover .add-to-cart {
     opacity: 1;
 }
@@ -379,22 +388,35 @@ nav.scrolled {
         align-items: center;
     }
 
- .section-content {
+    .section-content {
         text-align: center;
         flex: none;
         max-width: 600px;
         margin: 0 auto;
     }
 
-     .products-grid {
+    .products-grid {
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     }
 
-
-     .product-image {
+    .product-image {
         height: 250px;
     }
 }
+
+
+
+
+.product-imaage {
+    width: 100%;
+    height: 300px;
+mix-blend-mode: multiply;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+
+
 
 
 
@@ -409,13 +431,15 @@ nav.scrolled {
     background: #000;
 }
 
-
-
-
 .testimonial-title {
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 40px;
+}
+
+.testimonial-container {
+    position: relative;
+    overflow: hidden;
 }
 
 
