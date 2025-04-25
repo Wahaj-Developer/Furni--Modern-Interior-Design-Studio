@@ -460,3 +460,11 @@ mix-blend-mode: multiply;
 }
 
 @keyframes fadeEffect {
+ from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
