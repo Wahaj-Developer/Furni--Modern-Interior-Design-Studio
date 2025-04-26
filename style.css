@@ -477,3 +477,12 @@ mix-blend-mode: multiply;
     line-height: 1.8;
     color: rgba(255, 255, 255, 0.8);
 }
+
+
+.testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
