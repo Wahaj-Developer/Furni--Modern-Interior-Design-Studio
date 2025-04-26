@@ -543,3 +543,8 @@ mix-blend-mode: multiply;
 .next {
     right: 20px;
 }
+
+
+.dots-container {
+    margin-top: 20px;
+}
