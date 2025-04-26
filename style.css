@@ -529,3 +529,8 @@ mix-blend-mode: multiply;
     justify-content: center;
 }
 
+
+.nav-button:hover {
+    background: #fff;
+    color: #000;
+}
