@@ -573,3 +573,9 @@ mix-blend-mode: multiply;
         font-size: 1rem;
         padding: 0 40px;
     }
+
+.nav-button {
+        width: 35px;
+        height: 35px;
+    }
+}
