@@ -566,3 +566,6 @@ mix-blend-mode: multiply;
 .dot.active {
     background-color: #717171;
 }
+
+
+@media (max-width: 768px) {
