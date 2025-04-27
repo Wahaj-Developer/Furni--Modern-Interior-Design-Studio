@@ -561,3 +561,8 @@ mix-blend-mode: multiply;
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+
+.dot.active {
+    background-color: #717171;
+}
