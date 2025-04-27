@@ -559,3 +559,5 @@ mix-blend-mode: multiply;
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
