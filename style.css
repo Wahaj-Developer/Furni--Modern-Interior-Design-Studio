@@ -569,3 +569,5 @@ mix-blend-mode: multiply;
 
 
 @media (max-width: 768px) {
+.testimonial-content {
+        font-size: 1rem;
