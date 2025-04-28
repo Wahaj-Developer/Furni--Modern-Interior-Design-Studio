@@ -619,3 +619,12 @@ mix-blend-mode: multiply;
     gap: 20px;
     margin: 0 auto;
 }
+
+
+.room-box {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    aspect-ratio: 1/1.2; /* Uniform image ratio */
+}
