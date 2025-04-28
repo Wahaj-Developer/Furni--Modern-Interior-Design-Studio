@@ -672,3 +672,9 @@ mix-blend-mode: multiply;
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+
+.shop-button:hover {
+    background: #ddd;
+    transform: scale(1.05);
+}
