@@ -656,3 +656,8 @@ mix-blend-mode: multiply;
     transition: opacity 0.3s ease;
 }
 
+
+.room-box:hover .room-overlay {
+    opacity: 1;
+}
+
