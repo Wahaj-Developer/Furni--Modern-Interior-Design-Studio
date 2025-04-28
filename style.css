@@ -661,3 +661,10 @@ mix-blend-mode: multiply;
     opacity: 1;
 }
 
+
+.shop-button {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
