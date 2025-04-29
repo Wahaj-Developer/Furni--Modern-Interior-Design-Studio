@@ -684,3 +684,6 @@ mix-blend-mode: multiply;
 
 @media (max-width: 900px) {
     .room-grid {
+         grid-template-columns: repeat(2, 1fr);
+    }
+    
