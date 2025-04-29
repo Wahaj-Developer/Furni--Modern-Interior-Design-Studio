@@ -690,3 +690,10 @@ mix-blend-mode: multiply;
   .box3 {
         grid-column: span 2;
     }
+    }
+
+@media (max-width: 600px) {
+    .room-grid {
+        grid-template-columns: 1fr;
+    }
+    
