@@ -721,3 +721,12 @@ mix-blend-mode: multiply;
     text-align: left;
     margin-bottom: 3rem;
 }
+
+
+.section-header h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+
