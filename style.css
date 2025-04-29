@@ -716,3 +716,8 @@ mix-blend-mode: multiply;
     
 }
 
+
+.section-header {
+    text-align: left;
+    margin-bottom: 3rem;
+}
