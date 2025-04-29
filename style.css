@@ -696,4 +696,7 @@ mix-blend-mode: multiply;
     .room-grid {
         grid-template-columns: 1fr;
     }
+     .box3 {
+        grid-column: span 1;
+    }
     
