@@ -699,4 +699,9 @@ mix-blend-mode: multiply;
      .box3 {
         grid-column: span 1;
     }
-    
+
+     .section-title {
+        font-size: 2rem;
+    }
+}
+
