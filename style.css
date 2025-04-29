@@ -687,3 +687,6 @@ mix-blend-mode: multiply;
          grid-template-columns: repeat(2, 1fr);
     }
     
+  .box3 {
+        grid-column: span 2;
+    }
