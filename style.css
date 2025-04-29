@@ -730,3 +730,8 @@ mix-blend-mode: multiply;
 }
 
 
+.section-header p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+}
+
