@@ -682,3 +682,5 @@ mix-blend-mode: multiply;
 /* Responsive adjustments */
 
 
+@media (max-width: 900px) {
+    .room-grid {
