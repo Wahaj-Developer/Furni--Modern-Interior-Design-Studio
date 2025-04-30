@@ -799,3 +799,7 @@ mix-blend-mode: multiply;
     .why-choose-us {
         padding: 2rem 1rem;
     }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
