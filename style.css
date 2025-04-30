@@ -795,3 +795,7 @@ mix-blend-mode: multiply;
 }
 
 
+@media (max-width: 768px) {
+    .why-choose-us {
+        padding: 2rem 1rem;
+    }
