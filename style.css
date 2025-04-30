@@ -842,4 +842,17 @@ mix-blend-mode: multiply;
     margin: 0;
 }
 
+.newsletter-form {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+
+
+
+
+
+
 
