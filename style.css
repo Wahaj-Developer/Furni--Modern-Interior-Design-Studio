@@ -850,6 +850,14 @@ mix-blend-mode: multiply;
 }
 
 
+.form-input {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+}
+
 
 
 
