@@ -886,6 +886,11 @@ mix-blend-mode: multiply;
 }
 
 
+.footer-brand h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
 
 
 
