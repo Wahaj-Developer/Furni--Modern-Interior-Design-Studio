@@ -821,3 +821,13 @@ mix-blend-mode: multiply;
     background: #000;
 }
 
+
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+
