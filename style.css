@@ -803,3 +803,8 @@ mix-blend-mode: multiply;
     .section-header h2 {
         font-size: 2rem;
     }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
