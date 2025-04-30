@@ -893,6 +893,13 @@ mix-blend-mode: multiply;
 }
 
 
+.footer-brand p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
 
 
 
