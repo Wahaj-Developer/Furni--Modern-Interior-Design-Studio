@@ -836,5 +836,10 @@ mix-blend-mode: multiply;
     font-size: 24px;
 }
 
+.newsletter-title {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+}
 
 
