@@ -878,15 +878,16 @@ mix-blend-mode: multiply;
 
 /* Footer Styles */
 
-
-
-
-
-
-
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 40px 20px;
-    background: #000;
+.footer {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
 }
+
+
+
+
+
+
+
