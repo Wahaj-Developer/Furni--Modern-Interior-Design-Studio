@@ -735,3 +735,14 @@ mix-blend-mode: multiply;
     line-height: 1.6;
 }
 
+
+
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+
+
