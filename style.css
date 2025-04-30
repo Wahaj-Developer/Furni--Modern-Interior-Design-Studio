@@ -859,6 +859,15 @@ mix-blend-mode: multiply;
 }
 
 
+.submit-btn {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 
 
