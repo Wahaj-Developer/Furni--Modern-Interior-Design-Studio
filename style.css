@@ -772,3 +772,8 @@ mix-blend-mode: multiply;
     transition: all 0.3s ease;
 }
 
+
+.feature-card:hover .icon-wrapper {
+    background: #007bff;
+    color: white;
+}
