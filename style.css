@@ -870,6 +870,11 @@ mix-blend-mode: multiply;
 
 
 
+.submit-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
 
 
 
