@@ -777,3 +777,14 @@ mix-blend-mode: multiply;
     background: #007bff;
     color: white;
 }
+
+
+
+.feature-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: #fff;
+}
+
+
+
