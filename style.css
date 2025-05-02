@@ -972,3 +972,10 @@ mix-blend-mode: multiply;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
 }
+
+
+.footer-bottom a:hover {
+    color: black;
+}
+
+
