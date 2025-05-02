@@ -988,6 +988,11 @@ mix-blend-mode: multiply;
         padding: 30px 15px;
     }
 
+    
+    /* Newsletter section adjustments */
+    .newsletter {
+        flex-direction: column;
+
 
 
 
