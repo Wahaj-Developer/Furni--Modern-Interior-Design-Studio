@@ -1005,6 +1005,12 @@ mix-blend-mode: multiply;
         margin-bottom: 40px;
     }
 
+    .newsletter-form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+
 
     .form-input {
         width: 100%;
