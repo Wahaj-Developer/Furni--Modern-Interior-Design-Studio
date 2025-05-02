@@ -987,6 +987,10 @@ mix-blend-mode: multiply;
  .container {
         padding: 30px 15px;
     }
+       align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 40px;
+    }
 
     
     /* Newsletter section adjustments */
