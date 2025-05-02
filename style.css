@@ -939,3 +939,7 @@ mix-blend-mode: multiply;
     margin: 0;
 }
 
+
+.footer-links li {
+    margin-bottom: 12px;
+}
