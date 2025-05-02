@@ -927,3 +927,7 @@ mix-blend-mode: multiply;
     color: white;
 }
 
+.footer-links h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
