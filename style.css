@@ -1002,5 +1002,10 @@ mix-blend-mode: multiply;
         flex-direction: column;
 
 
+    .form-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 
 
+        
