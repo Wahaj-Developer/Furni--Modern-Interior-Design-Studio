@@ -899,7 +899,10 @@ mix-blend-mode: multiply;
     margin-bottom: 20px;
 }
 
-
+.social-links {
+    display: flex;
+    gap: 15px;
+}
 
 
 
