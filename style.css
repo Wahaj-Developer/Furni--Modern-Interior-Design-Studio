@@ -966,3 +966,9 @@ mix-blend-mode: multiply;
     justify-content: space-between;
     color: rgba(255, 255, 255, 0.8);
 }
+
+
+.footer-bottom a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
