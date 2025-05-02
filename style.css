@@ -992,7 +992,11 @@ mix-blend-mode: multiply;
         margin-bottom: 40px;
     }
 
-    
+      .newsletter-form {
+        width: 100%;
+        flex-direction: column;
+    }
+
     /* Newsletter section adjustments */
     .newsletter {
         flex-direction: column;
