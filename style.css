@@ -943,3 +943,11 @@ mix-blend-mode: multiply;
 .footer-links li {
     margin-bottom: 12px;
 }
+
+
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s;
+}
