@@ -921,3 +921,9 @@ mix-blend-mode: multiply;
     color: #45625C;
 }
 
+
+.social-link:hover {
+    background: #45625C;
+    color: white;
+}
+
