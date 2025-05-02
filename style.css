@@ -981,9 +981,12 @@ mix-blend-mode: multiply;
 
 
 @media (max-width: 768px) {
+    
     /* Container adjustments */
 
-
+ .container {
+        padding: 30px 15px;
+    }
 
 
 
