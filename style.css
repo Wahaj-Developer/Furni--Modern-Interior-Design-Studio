@@ -1000,6 +1000,10 @@ mix-blend-mode: multiply;
     /* Newsletter section adjustments */
     .newsletter {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 40px;
+    }
 
 
     .form-input {
