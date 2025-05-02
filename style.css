@@ -951,3 +951,9 @@ mix-blend-mode: multiply;
     text-decoration: none;
     transition: color 0.3s;
 }
+
+
+
+.footer-links a:hover {
+    color: #fff;
+}
