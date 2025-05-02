@@ -1017,5 +1017,8 @@ mix-blend-mode: multiply;
         margin-bottom: 10px;
     }
 
+   .submit-btn {
+        width: 100%;
+    }
 
         
