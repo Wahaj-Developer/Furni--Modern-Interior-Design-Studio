@@ -904,5 +904,10 @@ mix-blend-mode: multiply;
     gap: 15px;
 }
 
+.social-links a {
+    text-decoration: none;
+}
+
+
 
 
