@@ -1048,3 +1048,9 @@ mix-blend-mode: multiply;
     .footer-links li {
         margin-bottom: 10px;
     }
+
+    .social-links {
+        gap: 12px;
+    }
+
+
