@@ -1029,4 +1029,6 @@ mix-blend-mode: multiply;
         gap: 25px;
     }
 
-
+    .footer-brand {
+        grid-column: 1 / -1;
+    }
