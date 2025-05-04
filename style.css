@@ -1023,3 +1023,10 @@ mix-blend-mode: multiply;
 
 
   /* Footer adjustments */   
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+
