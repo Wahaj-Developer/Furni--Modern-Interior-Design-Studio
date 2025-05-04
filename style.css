@@ -1053,4 +1053,7 @@ mix-blend-mode: multiply;
         gap: 12px;
     }
 
-
+    .social-link {
+        width: 35px;
+        height: 35px;
+    }
