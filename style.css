@@ -1057,3 +1057,11 @@ mix-blend-mode: multiply;
         width: 35px;
         height: 35px;
     }
+
+    /* Keep footer bottom as is - not stacking yet */
+    .footer-bottom {
+        flex-direction: row;
+        padding-top: 15px;
+        margin-top: 30px;
+    }
+}
