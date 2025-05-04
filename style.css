@@ -1045,4 +1045,6 @@ mix-blend-mode: multiply;
         font-size: 1.1rem;
     }
 
-
+    .footer-links li {
+        margin-bottom: 10px;
+    }
