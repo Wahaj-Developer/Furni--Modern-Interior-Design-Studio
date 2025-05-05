@@ -20,3 +20,4 @@ window.addEventListener('scroll', function () {
 //            Slide for testimonial
 
 let slideIndex = 1;
+showSlides(slideIndex);
