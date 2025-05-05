@@ -31,4 +31,4 @@ showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
-
+    const slides = document.getElementsByClassName("testimonial-slide");
