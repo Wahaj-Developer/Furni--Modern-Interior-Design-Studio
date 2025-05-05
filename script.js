@@ -27,3 +27,6 @@ function plusSlides(n) {
 }
 
 function currentSlide(n) {
+             showSlides(slideIndex = n);
+}
+
