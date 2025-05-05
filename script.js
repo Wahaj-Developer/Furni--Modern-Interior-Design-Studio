@@ -42,3 +42,11 @@ function showSlides(n) {
   // Hide all slides
 
     for (let i = 0; i < slides.length; i++) {
+             
+    slides[i].classList.remove("active");
+             
+    }
+
+
+
+         
