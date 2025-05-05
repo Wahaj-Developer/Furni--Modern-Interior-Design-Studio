@@ -34,4 +34,5 @@ function showSlides(n) {
     const slides = document.getElementsByClassName("testimonial-slide");
     const dots = document.getElementsByClassName("dot");
   if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
          
