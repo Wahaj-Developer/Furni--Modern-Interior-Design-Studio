@@ -55,5 +55,5 @@ function showSlides(n) {
            
     }       
 
-
+   // Show current slide and activate dot
          
