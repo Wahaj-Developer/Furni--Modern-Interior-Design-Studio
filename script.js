@@ -66,4 +66,9 @@ function showSlides(n) {
 document.addEventListener('DOMContentLoaded', function() {
 
     // Button controls
-    document.querySelector('.prev').addEventListener('click', () => plusSlides(-1));                       
+         
+document.querySelector('.prev').addEventListener('click', () => plusSlides(-1));                       
+
+document.querySelector('.next').addEventListener('click', () => plusSlides(1));
+    
+    // Dot controls
