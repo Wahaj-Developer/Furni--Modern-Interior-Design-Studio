@@ -62,3 +62,7 @@ function showSlides(n) {
 }
 
 // Initialize event listeners
+
+document.addEventListener('DOMContentLoaded', function() {
+
+                          
