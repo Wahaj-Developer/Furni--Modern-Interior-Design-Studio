@@ -79,4 +79,4 @@ dot.addEventListener('click', () => currentSlide(index + 1));
     });
 });
 
-             
+             //            Alert interactivity for whole page
