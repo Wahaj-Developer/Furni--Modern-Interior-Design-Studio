@@ -61,4 +61,4 @@ function showSlides(n) {
     dots[slideIndex - 1].classList.add("active");
 }
 
-
+// Initialize event listeners
