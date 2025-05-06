@@ -72,3 +72,6 @@ document.querySelector('.prev').addEventListener('click', () => plusSlides(-1));
 document.querySelector('.next').addEventListener('click', () => plusSlides(1));
     
     // Dot controls
+   const dots = document.querySelectorAll('.dot');
+    dots.forEach((dot, index) => {
+             
