@@ -58,4 +58,7 @@ function showSlides(n) {
    // Show current slide and activate dot
          
     slides[slideIndex - 1].classList.add("active");
+    dots[slideIndex - 1].classList.add("active");
+}
+
 
