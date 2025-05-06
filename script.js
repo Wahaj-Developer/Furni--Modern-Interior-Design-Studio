@@ -48,5 +48,12 @@ function showSlides(n) {
     }
 
     // Deactivate all dots
+         
   for (let i = 0; i < dots.length; i++) {
+           
+        dots[i].classList.remove("active");
+           
+    }       
+
+
          
