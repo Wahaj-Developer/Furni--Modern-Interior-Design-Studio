@@ -47,6 +47,6 @@ function showSlides(n) {
              
     }
 
-
+    // Deactivate all dots
 
          
