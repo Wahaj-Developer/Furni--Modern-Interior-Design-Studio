@@ -179,5 +179,10 @@ function showCustomAlert(message) {
   alertBox.style.display = 'flex';
   
 
+  newOkBtn.addEventListener('click', () => {
+    alertBox.style.display = 'none';
+  });
+}
+
 
          
