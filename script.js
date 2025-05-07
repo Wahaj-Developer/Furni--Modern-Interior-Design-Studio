@@ -125,4 +125,14 @@ function setupAllAlerts() {
   document.querySelector('.Learn')?.addEventListener('click', (e) => {
     showCustomAlert('Our learning resources are coming soon! Stay tuned for educational content.');
   });
-         
+
+ 
+  
+  // Alert for feature cards
+  document.querySelectorAll('.feature-card').forEach(card => {
+    card.addEventListener('click', (e) => {
+      e.preventDefault();
+      showCustomAlert("❌ Unavailable\nThis service is not available today.🙁");
+    });
+  });
+          
