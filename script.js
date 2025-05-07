@@ -123,4 +123,6 @@ function setupAllAlerts() {
 
   // Alert for learn button
   document.querySelector('.Learn')?.addEventListener('click', (e) => {
-           
+    showCustomAlert('Our learning resources are coming soon! Stay tuned for educational content.');
+  });
+         
