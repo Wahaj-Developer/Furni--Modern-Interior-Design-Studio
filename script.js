@@ -146,5 +146,12 @@ function setupAllAlerts() {
   });
 
 
+  // Alert for service boxes
+  document.querySelectorAll('.service-box').forEach(box => {
+    box.addEventListener('click', () => {
+      showCustomAlert("No");
+    });
+  });
+  
 
                                                      
