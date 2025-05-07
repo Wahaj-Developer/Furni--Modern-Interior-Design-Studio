@@ -118,4 +118,9 @@ function setupAllAlerts() {
 
   // Alert for learn button
   document.querySelector('.Learn')?.addEventListener('click', (e) => {
+    e.preventDefault();
+
+
+  // Alert for learn button
+  document.querySelector('.Learn')?.addEventListener('click', (e) => {
            
