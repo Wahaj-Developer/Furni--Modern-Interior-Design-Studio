@@ -108,4 +108,9 @@ function setupAllAlerts() {
     showCustomAlert('Our shop is getting a quick makeover! 🛠️ Please check back soon.');
   });
 
-         
+  
+  // Alert for explore button
+  document.querySelector('.explore.btn-secondary')?.addEventListener('click', (e) => {
+
+
+           
