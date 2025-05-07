@@ -90,5 +90,6 @@ function setupAllAlerts() {
 
   const alertIcons = document.querySelectorAll('.alert');
   alertIcons.forEach(icon => {
-
+   icon.addEventListener('click', (e) => {
+      e.preventDefault();
          
