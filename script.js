@@ -111,6 +111,9 @@ function setupAllAlerts() {
   
   // Alert for explore button
   document.querySelector('.explore.btn-secondary')?.addEventListener('click', (e) => {
+   e.preventDefault();
+    showCustomAlert('Our exploration features are coming soon! Stay tuned for exciting updates.');
+  });
 
 
            
