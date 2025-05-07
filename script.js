@@ -83,8 +83,12 @@ dot.addEventListener('click', () => currentSlide(index + 1));
 
 
 // Main alert controller function
+
 function setupAllAlerts() {
+         
   // Alert for icons (user and cart)
 
+  const alertIcons = document.querySelectorAll('.alert');
+  alertIcons.forEach(icon => {
 
          
