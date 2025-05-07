@@ -154,4 +154,14 @@ function setupAllAlerts() {
   });
   
 
+  // New alert for room-box
+  document.querySelectorAll('.room-box').forEach(box => {
+    box.addEventListener('click', (e) => {
+      e.preventDefault();
+      showCustomAlert("This room set is currently unavailable for purchase. Please check back later!");
+    });
+  });
+}
+
+                                                     
                                                      
