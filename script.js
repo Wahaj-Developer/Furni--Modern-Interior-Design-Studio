@@ -136,3 +136,15 @@ function setupAllAlerts() {
     });
   });
           
+
+  // Alert for add-to-cart buttons
+  document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', (e) => {
+      e.preventDefault();
+      showCustomAlert("❌ Unavailable\n This is out of stoke.😥");
+    });
+  });
+
+
+
+                                                     
