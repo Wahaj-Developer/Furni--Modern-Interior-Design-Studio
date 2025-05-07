@@ -185,4 +185,8 @@ function showCustomAlert(message) {
 }
 
 
+// Initialize all alerts when DOM is loaded
+document.addEventListener('DOMContentLoaded', setupAllAlerts);
+
+         
          
