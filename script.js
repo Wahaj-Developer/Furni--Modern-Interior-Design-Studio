@@ -92,4 +92,7 @@ function setupAllAlerts() {
   alertIcons.forEach(icon => {
    icon.addEventListener('click', (e) => {
       e.preventDefault();
+              if (icon.classList.contains('fa-user')) {
+        showCustomAlert('Server is down😴');
+      } else if (icon.classList.contains('fa-shopping-cart')) {
          
