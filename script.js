@@ -80,3 +80,11 @@ dot.addEventListener('click', () => currentSlide(index + 1));
 });
 
              //            Alert interactivity for whole page
+
+
+// Main alert controller function
+function setupAllAlerts() {
+  // Alert for icons (user and cart)
+
+
+         
