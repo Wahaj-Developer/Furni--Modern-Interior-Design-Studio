@@ -163,5 +163,11 @@ function setupAllAlerts() {
   });
 }
 
-                                                     
+
+// Universal alert function with event listener cleanup
+function showCustomAlert(message) {
+  const alertBox = document.getElementById('customAlert');
+  const alertMessage = document.getElementById('alertMessage');
+  const okBtn = document.getElementById('alertOkBtn');
+                                                       
                                                      
