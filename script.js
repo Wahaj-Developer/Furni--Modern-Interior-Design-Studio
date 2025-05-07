@@ -170,4 +170,11 @@ function showCustomAlert(message) {
   const alertMessage = document.getElementById('alertMessage');
   const okBtn = document.getElementById('alertOkBtn');
                                                        
-                                                     
+   // Clone button to prevent duplicate event listeners
+  const newOkBtn = okBtn.cloneNode(true);
+  okBtn.parentNode.replaceChild(newOkBtn, okBtn);
+
+
+
+
+         
