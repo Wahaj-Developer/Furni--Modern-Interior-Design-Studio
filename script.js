@@ -116,4 +116,6 @@ function setupAllAlerts() {
   });
 
 
+  // Alert for learn button
+  document.querySelector('.Learn')?.addEventListener('click', (e) => {
            
