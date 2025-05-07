@@ -95,4 +95,9 @@ function setupAllAlerts() {
               if (icon.classList.contains('fa-user')) {
         showCustomAlert('Server is down😴');
       } else if (icon.classList.contains('fa-shopping-cart')) {
+
+                              showCustomAlert('This feature is currently under maintenance. Please check back later!😥');
+      }
+    });
+  });
          
