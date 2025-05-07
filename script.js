@@ -174,7 +174,10 @@ function showCustomAlert(message) {
   const newOkBtn = okBtn.cloneNode(true);
   okBtn.parentNode.replaceChild(newOkBtn, okBtn);
 
-
+ 
+  alertMessage.textContent = message;
+  alertBox.style.display = 'flex';
+  
 
 
          
