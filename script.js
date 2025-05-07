@@ -104,4 +104,8 @@ function setupAllAlerts() {
 
   // Alert for shop button
   document.querySelector('.shop.btn-primary')?.addEventListener('click', (e) => {
-           
+    e.preventDefault();
+    showCustomAlert('Our shop is getting a quick makeover! 🛠️ Please check back soon.');
+  });
+
+         
