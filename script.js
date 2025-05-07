@@ -101,3 +101,7 @@ function setupAllAlerts() {
     });
   });
          
+
+  // Alert for shop button
+  document.querySelector('.shop.btn-primary')?.addEventListener('click', (e) => {
+           
