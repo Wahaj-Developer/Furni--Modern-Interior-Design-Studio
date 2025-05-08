@@ -1,3 +1,7 @@
+<h1>Project Attribution:</h1>
+This personal project was independently developed using an open-source design as inspiration. The implementation and customization were completed as part of my self-directed learning, and this work is not affiliated with nor represents DeveloperHub Corporation or any internship program.
+
+
 <h1>Demo link:</h1> <br/>
 https://furnii-ecomerce-website.netlify.app/#home
 
